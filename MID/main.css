@@ -70,6 +70,7 @@
     line-height: 70px;
     font-size: 28px;
 }
+
 /* QUOTES */
 .Quotes{
     width: 95%;
@@ -77,86 +78,115 @@
     background-color: #FEFCF3;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    display: flex;
     margin: -5% auto 20px auto;
     position: relative;
-    justify-content: space-evenly;
 }
 .About_Quotes{
-    width: 100%;
-    align-items: center;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    padding: 5%;
+    margin-left: 10%;
+    flex-direction: row;
 }
-.character{
+.character1{
     width: 20%;
-    margin-left: 70%;
     height: 250px;
 }
 .About_text{
     margin-bottom: 50%;
     width: 70%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 #About_title{
     font-size: 50px;
     line-height: 90px;
+    text-shadow: 2px 1px 1px gray;
 }
 #Quotes_text{
     font-size: 30px;
 }
+
 /* HOMEPAGE */
 .Homepage{
-    width: 95%;
+    width: 100%;
     height: 70vh;
-    background-color: #FEFCF3;
+    background-color: rgb(249, 248, 243);
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+#character2{
+    width: 20%;
+    height: 50vh;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
 }
 .Homepage_top{
     width: 50%;
-    line-height: 30px;
-    margin-left: 40%;
+    height: 90%;
+    line-height: 50px;
+    margin-left: 10%;
 }
 .Hey{
     width: 100%;
+    height: 15%;
     display: block;
     color:#1d1d11;
     margin-bottom: 10px;
     font-size: 30px;
     font-family: Roboto;
-    position: relative;
-    padding-top: 10px;
-    height: 100%;
+    font-weight: 100;
 }
 .Caroline{
     width: 100%;
-    font-size: 30px;
+    height: 10%;
+    font-size: 50px;
     font-family: Roboto;
-    font-weight: 400;
-    margin-bottom: 8px;
-    margin-top: 7px;
-    height: 100%;
+    font-weight: 800;
+    line-height: 0px;
 }
 .As{
-    width: 50%;
-    font-style: normal;
+    width: 100%;
+    height: 10%;
     font-weight: 500;
-    font-size: 50px;
-    position: absolute;
-    padding-top: 10px;  
-    margin-top: 20px;
-    height: 85%;
+    font-size: 30px;
 }
 .Homepage_text{
     width: 100%;
-    font-size: 20px;
-    position: relative;
-    font-weight:normal;
+    height: 60%;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight:200;
     text-align: justify;
-    margin-top: 150px;
-    height: 100%;
-    line-height: 30px;
+}
+/* EDUCATION */
+.education{
+    weight: 100%;
+    height: 60vh;
+    background-color: rgb(255, 244, 181);
+}
+.title_education{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 2%;
+}
+.date{
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 5%;
+    text-align: center;
+}
+.info{
+    font-size: 16px;
+    text-align: center;
 }
 /* SKILLS */
 .Specializing {
-    padding: 10px 200px;
+    width: 90%;
+    height: 100vh;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,48 +194,79 @@
     text-align: center;
     background: radial-gradient( circle, #F8F5E0, #FFFFFF);
 }
-.Specializing .container h1 {
+#Specializing_title{
+    font-size: 64px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#Specializing_text{
+    font-size: 16px;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: #525250;
+    font-weight: 100;
+}
+.Specializing .container{
     font-size: 64px;
     margin-bottom: 15px;
 }
-.container h3{
-    font-size: 20px;
-}
 .box_content {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
     padding: 60px;
-    margin-right: 10px;
-    margin-left: 20px;
 }
-.box_content .box_item > p {
+.box_content .box_item {
     font-size: 10px;
     font-weight: 500;
 }
+.box_item{
+    width: 100%;
+    border: groove;
+    margin: 7% ;
+    line-height: 60%;
+    height: 70%;
+}
 #box_title{
     font-size: 25px;
+    line-height: 50px ;
+    padding: 10%;
 }
+#box_body{
+    font-size: 16px;
+    padding: 5%;
+    line-height: 100%;
+    margin-top: 10%;
+    text-align: justify;
+}
+#Skill{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    line-height: 200%;
+}
+
 /* DROP YOUR MESSAGE */
-.drop_message{
+#drop_message{
     height: 100%;
     width: 100%;
     background-color: rgb(172, 171, 170);
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 5%;
+    border: solid yellow;
 }
 .drop_title{
-    width:100%;
-    height: 100vh;
-    max-width: 200px;
-    margin: 0 auto;
+    width: 20%;
+    margin-left: 40%;
     padding: 20 px;
     box-shadow: 0 px 0 px 20px grey;
     border-radius: 100 px;
     margin-bottom: 10 px;
+    font-size: 30px;
+}
+.box_message{
+    width: 30%;
+    margin-left: 40%;
 }
 .form-group{
     margin-bottom: 30px;
@@ -245,15 +306,21 @@ textarea:valid~label{
     top:-35px;
     font-size: 14px;
 }
+
 /* FOOTER */
 .Footer{
     position: relative;
     width: 100%;
-    background-color: #525250;
-    min-height: 200px;
+    height: 20vh;
+    background-color: #80807d;
     padding: 20px 50 px;
     justify-content: center;
     align-items: center;
+}
+#end{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
 }
 .Footer .social_icon{
     position: relative;
@@ -274,13 +341,12 @@ textarea:valid~label{
     transition: 0.5s;
     opacity: 0.75;
 }
-.Footer .social_icon #icon a :hover{
-    transform: translate(-10px);
+.Footer .social_icon  a :hover{
+    transform: translate(10px);
 }
-.Footer h5{
-    color: gray;
+#Check{
+    color: black;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
     font-size: 20px;
+    line-height: 70px;
 }
